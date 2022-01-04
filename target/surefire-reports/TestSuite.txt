@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 61.567 s <<< FAILURE! - in TestSuite
+InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001[{Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum=5.000.000,00, Vehicle_Date of Manufacture=43564, Insurant_Hobby=Speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2621, PriceValidation_Silver=69, Vehicle_Make=Honda, Vehicle_Engine Performance=666, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1376, Insurant_FirstName=Jayant, Insurant_birthdate=32854, Insurant_gender=Male}](1)  Time elapsed: 6.19 s  <<< FAILURE!
+java.lang.AssertionError: expected [69] but found [236.00]
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
+
+InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001[{Vehicle_ListPrice=888, Product_startdate=46003, PriceValidation_Gold=238, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum=20.000.000,00, Vehicle_Date of Manufacture=36990, Insurant_Hobby=Speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2626, PriceValidation_Silver=69, Vehicle_Make=Volvo, Vehicle_Engine Performance=900, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1379, Insurant_FirstName=Anita, Insurant_birthdate=28471, Insurant_gender=Female}](2)  Time elapsed: 7.148 s  <<< FAILURE!
+java.lang.AssertionError: expected [69] but found [720.00]
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
+
+InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001[null](3)  Time elapsed: 3.272 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.util.HashMap.get(Object)" because "hm" is null
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
+
