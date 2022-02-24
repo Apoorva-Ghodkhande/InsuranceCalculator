@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>E:\JavaWorkSpace\Training.InsuranceCalculator\testng.xml</span>
+                    <span>E:\JavaWorkSpace\Training.InsuranceCalculator2\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle" class="method navigator-link" hash-for-method="testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)">testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle" class="method navigator-link" hash-for-method="testCase_0001(null)">testCase_0001(null)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -114,7 +114,7 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle" class="method navigator-link" hash-for-method="testCase_0001(null)">testCase_0001(null)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle" class="method navigator-link" hash-for-method="testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)">testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -137,14 +137,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)">
-                  </a> <!-- testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...) -->
+                  <a name="testCase_0001(null)">
+                  </a> <!-- testCase_0001(null) -->
                   <span class="method-name">testCase_0001</span>
-                  <span class="parameters">({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum=5.000.000,00, Vehicle_Date of Manufacture=43564, Insurant_Hobby=Speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2621, PriceValidation_Silver=69, Vehicle_Make=Honda, Vehicle_Engine Performance=666, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1376, Insurant_FirstName=Jayant, Insurant_birthdate=32854, Insurant_gender=Male})</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [69] but found [236.00]
-	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
+                  <span class="parameters">(null)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.HashMap.get(Object)&quot; because &quot;hm&quot; is null
+	at pageObjects.EnterVehicleDataPageObjects.enterVehicleData(EnterVehicleDataPageObjects.java:75)
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -163,15 +164,14 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase_0001(null)">
-                  </a> <!-- testCase_0001(null) -->
+                  <a name="testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)">
+                  </a> <!-- testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...) -->
                   <span class="method-name">testCase_0001</span>
-                  <span class="parameters">(null)</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.util.HashMap.get(Object)&quot; because &quot;hm&quot; is null
-	at pageObjects.EnterVehicleDataPageObjects.enterVehicleData(EnterVehicleDataPageObjects.java:75)
-	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
+                  <span class="parameters">({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum=5.000.000,00, Vehicle_Date of Manufacture=43564, Insurant_Hobby=Speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2621, PriceValidation_Silver=69, Vehicle_Make=Honda, Vehicle_Engine Performance=666, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1376, Insurant_FirstName=Jayant, Insurant_birthdate=32854, Insurant_gender=Male})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [69] but found [236.00]
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -180,7 +180,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\JavaWorkSpace\Training.InsuranceCalculator\testng.xml</span>
+            <span class="header-content">E:\JavaWorkSpace\Training.InsuranceCalculator2\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -236,20 +236,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCase_0001')
 data.setCell(0, 2, 'InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle')
-data.setCell(0, 3, 7635);
+data.setCell(0, 3, 13673);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testCase_0001')
 data.setCell(1, 2, 'InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle')
-data.setCell(1, 3, 7329);
+data.setCell(1, 3, 5896);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testCase_0001')
 data.setCell(2, 2, 'InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle')
-data.setCell(2, 3, 4515);
+data.setCell(2, 3, 3786);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -284,39 +284,39 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCase_0001({Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual M...)</span>
-                <span class="method-start">8868 ms</span>
+                <span class="method-start">17451 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">17118 ms</span>
+                <span class="method-start">31410 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startup</span>
-                <span class="method-start">17120 ms</span>
+                <span class="method-start">32675 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCase_0001({Vehicle_ListPrice=888, Product_startdate=46003, PriceValidation_Gold=238, TC No=2, Vehicle_Annual M...)</span>
-                <span class="method-start">28535 ms</span>
+                <span class="method-start">41866 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">startup</span>
-                <span class="method-start">36101 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">36101 ms</span>
+                <span class="method-start">47951 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startup</span>
+                <span class="method-start">49125 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testCase_0001(null)</span>
-                <span class="method-start">56759 ms</span>
+                <span class="method-start">62037 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">61454 ms</span>
+                <span class="method-start">66658 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

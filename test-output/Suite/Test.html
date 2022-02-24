@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 03 11:22:19 PST 2022</td>
+<td>Started on:</td><td>Thu Feb 24 01:11:24 PST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62001 ms)</td>
+<tr><td>Total time:</td><td>69 seconds (69534 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001()'><b>testCase_0001</b><br>Test class: InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle<br>Parameters: {Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum=5.000.000,00, Vehicle_Date of Manufacture=43564, Insurant_Hobby=Speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2621, PriceValidation_Silver=69, Vehicle_Make=Honda, Vehicle_Engine Performance=666, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1376, Insurant_FirstName=Jayant, Insurant_birthdate=32854, Insurant_gender=Male}</td>
-<td><div><pre>java.lang.AssertionError: expected [69] but found [236.00]
-	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
+<td title='InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001()'><b>testCase_0001</b><br>Test class: InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle<br>Parameters: null</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.HashMap.get(Object)&quot; because &quot;hm&quot; is null
+	at pageObjects.EnterVehicleDataPageObjects.enterVehicleData(EnterVehicleDataPageObjects.java:75)
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1073862849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1073862849'><pre>java.lang.AssertionError: expected [69] but found [236.00]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace82086221", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace82086221'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.HashMap.get(Object)&quot; because &quot;hm&quot; is null
+	at pageObjects.EnterVehicleDataPageObjects.enterVehicleData(EnterVehicleDataPageObjects.java:75)
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,15 +113,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>7</td>
+<td>3</td>
 <td>InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle@55795845</td></tr>
 <tr>
 <td title='InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001()'><b>testCase_0001</b><br>Test class: InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle<br>Parameters: {Vehicle_ListPrice=888, Product_startdate=46003, PriceValidation_Gold=238, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum=20.000.000,00, Vehicle_Date of Manufacture=36990, Insurant_Hobby=Speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2626, PriceValidation_Silver=69, Vehicle_Make=Volvo, Vehicle_Engine Performance=900, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1379, Insurant_FirstName=Anita, Insurant_birthdate=28471, Insurant_gender=Female}</td>
 <td><div><pre>java.lang.AssertionError: expected [69] but found [720.00]
 	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1859780907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1859780907'><pre>java.lang.AssertionError: expected [69] but found [720.00]
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1933513621", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1933513621'><pre>java.lang.AssertionError: expected [69] but found [720.00]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -162,18 +158,22 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>7</td>
+<td>5</td>
 <td>InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle@55795845</td></tr>
 <tr>
-<td title='InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001()'><b>testCase_0001</b><br>Test class: InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle<br>Parameters: null</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.HashMap.get(Object)&quot; because &quot;hm&quot; is null
-	at pageObjects.EnterVehicleDataPageObjects.enterVehicleData(EnterVehicleDataPageObjects.java:75)
-	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
+<td title='InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001()'><b>testCase_0001</b><br>Test class: InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle<br>Parameters: {Vehicle_ListPrice=888, Product_startdate=44177, PriceValidation_Gold=238, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum=5.000.000,00, Vehicle_Date of Manufacture=43564, Insurant_Hobby=Speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2621, PriceValidation_Silver=69, Vehicle_Make=Honda, Vehicle_Engine Performance=666, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Insurant_ImageFilePath=??, ProductOptional_Products=Euro Protection, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1376, Insurant_FirstName=Jayant, Insurant_birthdate=32854, Insurant_gender=Male}</td>
+<td><div><pre>java.lang.AssertionError: expected [69] but found [236.00]
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1017215299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1017215299'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.util.HashMap.get(Object)&quot; because &quot;hm&quot; is null
-	at pageObjects.EnterVehicleDataPageObjects.enterVehicleData(EnterVehicleDataPageObjects.java:75)
-	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:27)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1561480489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1561480489'><pre>java.lang.AssertionError: expected [69] but found [236.00]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle.testCase_0001(EndToEndTests_Motorcycle.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -203,7 +203,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>4</td>
+<td>13</td>
 <td>InsuranceCalculation_Motorcycle.EndToEndTests_Motorcycle@55795845</td></tr>
 </table><p>
 </body>
